@@ -26,6 +26,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
@@ -67,5 +70,6 @@
     <PackageReference Include="protobuf-net">
       <Version>2.4.8</Version>
     </PackageReference>
+    <PackageReference Include="System.Resources.Extensions" Version="4.7.0" />
   </ItemGroup>
 </Project>
