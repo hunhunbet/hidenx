@@ -1,5 +1,8 @@
 # Quasar Changelog
 
+## Quasar v1.4.2 [27.07.2025]
+* **Changed target framework to .NET Framework 4.6.2**
+
 ## Quasar v1.4.1 [12.03.2023]
 * Added missing WOW64 subsystem autostart locations
 * Fixed file transfers of files larger than 2 GB
